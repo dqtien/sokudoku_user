@@ -1,0 +1,77 @@
+.menu {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.menu__logo {
+  display: block;
+  width: 60px;
+  margin: 0 auto;
+}
+.menu__title {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.menu__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.menu__list__item__logo {
+  cursor: pointer;
+  background-position: 0 0;
+}
+.menu__list__item__logo--spark {
+  width: 148.04999999999998px;
+  height: 198.81px;
+  background-image: url("../images/menu/brain_spark.png");
+  background-size: 296.09999999999997px 198.81px;
+}
+.menu__list__item__logo--spark:hover,
+.menu__list__item__logo--spark.is-active {
+  background-position: 148.04999999999998px 0;
+}
+.menu__list__item__logo--exercise {
+  width: 163.56px;
+  height: 198.81px;
+  background-image: url("../images/menu/eye_exercise.png");
+  background-size: 327.12px 198.81px;
+}
+.menu__list__item__logo--exercise:hover,
+.menu__list__item__logo--exercise.is-active {
+  background-position: 163.56px 0;
+}
+.menu__list__item__logo--training {
+  width: 164.97px;
+  height: 195.98999999999998px;
+  background-image: url("../images/menu/speed_training.png");
+  background-size: 329.94px 195.98999999999998px;
+}
+.menu__list__item__logo--training:hover,
+.menu__list__item__logo--training.is-active {
+  background-position: 164.97px 0;
+}
+.measures {
+  margin-top: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.measures .measure {
+  display: block;
+  width: 150px;
+  position: relative;
+  right: -200px;
+  cursor: pointer;
+}

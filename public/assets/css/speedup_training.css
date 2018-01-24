@@ -1,0 +1,50 @@
+.p-training {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+.p-training__text {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  position: absolute;
+  left: 50px;
+  top: 0;
+  width: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.p-draggable-container {
+  width: 156px;
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.p-texts {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #19264b;
+  line-height: 1.6;
+}
+.p-texts__large {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.c-realtime-speed{
+  margin-bottom: 20px;
+}
+
+.p-controll .c-controller{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

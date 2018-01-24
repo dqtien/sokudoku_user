@@ -1,0 +1,16 @@
+.env
+composer.lock
+/vendor
+/storage/debugbar
+/storage/framework/views/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/logs/*
+/storage/app/*
+.settings
+.project
+.idea
+/nbproject
+/node_modules
+npm-debug.log
+_ide_helper.php

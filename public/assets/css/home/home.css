@@ -1,0 +1,45 @@
+.body-background{
+    background-image: url("../../images/background.png");
+}
+.home{
+
+}
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-quiz{
+    display: inline-flex;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.menu-quiz a{
+    text-decoration: none;
+}
+
+.menu-quiz .brain-quiz{
+     display: block;
+     width: 400px;
+}
+
+.menu-quiz .eye-quiz{
+    display: block;
+    width: 400px;
+}
+
+.menu-quiz .speed-quiz{
+    display: block;
+    width: 400px;
+}
+
+.link-history{
+    text-align: right;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+
+}

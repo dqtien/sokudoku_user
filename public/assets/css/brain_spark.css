@@ -1,0 +1,21 @@
+.p-sentence {
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: solid 1px #fff;
+  font-size: 40px;
+  line-height: 1.6;
+  text-align:center;
+  width: 100%;
+}
+.p-sentence--vertical {
+  height: 100%;
+  width: auto;
+  text-align: center;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
